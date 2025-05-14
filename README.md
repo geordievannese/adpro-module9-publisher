@@ -9,3 +9,7 @@ This URI tells each client to speak AMQP (Advanced Message Queuing Protocol) and
 By specifying localhost, both programs point to a broker running on the same machine where they’re launched. The port 5672 is RabbitMQ’s standard listener for AMQP traffic. Because both publisher and subscriber share every part of this URI—protocol, credentials, host, and port—they end up connecting to the exact same RabbitMQ instance.
 
 Once connected to that shared broker, any messages the publisher sends to a queue or exchange become immediately available for the subscriber to consume. In other words, using a common connection string guarantees that both ends talk to the same messaging backbone, enabling seamless message handoff.
+
+
+3. ## Running RabbitMQ as message broker.
+![Screenshot 2025-05-14 at 08.53.44.png](img/Screenshot%202025-05-14%20at%2008.53.44.png)
