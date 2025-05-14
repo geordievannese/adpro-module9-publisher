@@ -13,3 +13,7 @@ Once connected to that shared broker, any messages the publisher sends to a queu
 
 3. ## Running RabbitMQ as message broker.
 ![Screenshot 2025-05-14 at 08.53.44.png](img/Screenshot%202025-05-14%20at%2008.53.44.png)
+
+
+4. ## Sending and processing event
+![Screenshot 2025-05-14 at 09.05.47.png](img/Screenshot%202025-05-14%20at%2009.05.47.png)
